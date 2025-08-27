@@ -1,0 +1,23 @@
+public class Calculadora {
+
+   
+    public int somar(int a, int b) {
+        return a + b;
+    }
+
+   
+    public int multiplicar(int a, int b) {
+        return a * b;
+    }
+
+  
+    public static void main(String[] args) {
+        Calculadora calc = new Calculadora();
+
+        int resultadoSoma = calc.somar(5, 3);
+        int resultadoMultiplicacao = calc.multiplicar(5, 3);
+
+        System.out.println("Soma: " + resultadoSoma); // 8
+        System.out.println("Multiplicação: " + resultadoMultiplicacao); // 15
+    }
+}
